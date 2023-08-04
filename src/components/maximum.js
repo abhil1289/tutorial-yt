@@ -6,6 +6,7 @@ import { plus,decrement } from '../redux/action/counter_action'
 const Maximum = (props) => {
  console.log(props)
   return (
+    //working 
     <div>
         <button onClick={props.plus} >Increment</button>
         <button onClick={props.decrement} >decrement</button>
